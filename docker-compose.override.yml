@@ -1,10 +1,9 @@
 services:
   netbox:
-      ports:
-            - "8080:8080"
-                environment:
-                      SKIP_SUPERUSER: "false"
-                            SUPERUSER_NAME: "admin"
-                                  SUPERUSER_EMAIL: "contato@rodrigomendes.eti.br"
-                                        SUPERUSER_PASSWORD: "NetBox@2026!"
-                                        
+    ports:
+      - "8080:8080"
+    environment:
+      SKIP_SUPERUSER: "false"
+      SUPERUSER_NAME: "admin"
+      SUPERUSER_EMAIL: "contato@rodrigomendes.eti.br"
+      SUPERUSER_PASSWORD: "NetBox@2026!"
